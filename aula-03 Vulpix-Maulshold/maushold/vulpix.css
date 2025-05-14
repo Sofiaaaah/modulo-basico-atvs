@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(117, 117, 199);
+}
+
+.cabecalho {
+    font-family: cursive;
+    font-size: x-large;
+    color: rgb(254, 255, 193);
+    position: absolute;
+    left: 700px;
+    top: 10%;
+}
+
+.texto1 {
+    font-family: cursive;
+    font-size: x-large;
+    color: rgb(254, 255, 193);
+    position: absolute;
+    left: 700px;
+    top: 18%;
+}
+
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 710px;
+    top: 33%;
+    color: rgb(31, 184, 255);
+}
+
+.descrição {
+    font-family: monospace;
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 40%;
+}
+
+.descrição2 {
+    font-size: large;
+    font-family: monospace;
+    color: rgb(255, 58, 150);
+    position: absolute;
+    left: 720px;
+    top: 64%;
+}
+
+.preço {
+    font-size: large;
+    font-family: monospace;
+    color: rgb(19, 204, 96);
+    position: absolute;
+    left: 710px;
+    top: 47%;
+}
+
+.vulpix{
+    width: 450px;
+    height: 580px;
+    position: absolute;
+    left: 50px;
+    top: 8%;
+    z-index: 3;
+    border-radius: 30px;
+
+}
+
+.vulpix2 {
+    width: 220px;
+    height: 210px;
+    position: absolute;
+    left: 1050px;
+    top: 28%;
+    z-index: 2;
+}
+
+.opçoes {
+    font-family: cursive;
+    font-size: large;
+    color: rgb(86, 207, 255);
+    position: absolute;
+    left: 1170px;
+    top: 62%;
+}
+
+.quadrado {
+    position: absolute;
+    width: 600px;
+    height: 680px;
+    left: 0px;
+    top: 0%;
+    transform: translate(0%, 0%);
+    background-color: rgb(116, 116, 151);
+    z-index: 1;
+}
+
+.quadrado2 {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    left: 600px;
+    top: 0%;
+    transform: translate(-50%, -0%);
+    background-color:rgb(188, 176, 255);
+    z-index: 2;
+}
+
+.quadrado3 {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 700px;
+    top: 60%;
+    border-radius: 20px;
+    border: 6px solid rgb(24, 220, 255);
+}
+
+.quadrado4 {
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    background-color: rgb(244, 249, 255);
+    left: 700px;
+    top: 36%;
+    border-radius: 80px;
+    border: 2px solid rgb(24, 163, 255);
+}
+
+.quadrado5 {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    background-color: rgb(250, 255, 225);
+    left: 700px;
+    top: 50%;
+    border-radius: 80px;
+    border: 2px solid rgb(24, 163, 255);
+}
+
+.quadrado6 {
+    width: 170px;
+    height: 205px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 1140px;
+    top: 60%;
+    border-radius: 20px;
+    border: 4px solid rgb(24, 163, 255);
+
+}
+
+.botao {
+    font-family:cursive;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    left: 92%;
+    top: 80%;
+    border-radius: 20px;
+    border: 4px solid rgb(86, 111, 255);
+    background-color: rgb(86, 207, 255);
+    transform: translate(-70%, -53%);
+    font-size: medium;
+
+}
+
+.bola{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 1050px;
+    top: 40%;
+    transform: translate(-0%, -40%);
+    background-color: rgb(146, 209, 255);
+    border-radius: 80%;
+    z-index: 0;
+    border: 8px solid rgb(33, 83, 119);
+
+}

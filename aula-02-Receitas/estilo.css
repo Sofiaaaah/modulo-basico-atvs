@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(255, 209, 223);
+    
+}
+
+.cabecalho{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: rgb(255, 66, 113);
+    position: absolute; 
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+
+}
+
+.corlink{
+    color: rgb(233, 8, 64);
+    text-decoration: none;
+}
+
+.texto2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(179, 17, 79);
+    position: absolute;
+    top: 80%;
+    left: 53%;
+    transform: translate(-80%, -50%);
+}
+
+.cabecalho:hover{
+    cursor: pointer;
+    color: rgb(18, 1, 163);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texto2:hover{
+    cursor: pointer;
+    color: rgb(18, 1, 163);
+}
+
+.receitas{
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+    font-size:x-large;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    
+}
+.quadrado{
+    width: 00px;
+    height: 200px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    background-color: white;
+    border: 2px solid rgb(255, 66, 139);
+    border-radius: 40px;
+}
+
+.bola3{  
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:  0%;
+    left: 0%;
+    transform: translate(-20%, -40%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 80%;
+}
+
+.bola4{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top:  75%;
+    left: 80%;
+    transform: translate(-20%, -40%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 80%;
+}
+
+.botao{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-70%, -53%);
+    font-size: medium;
+    z-index: 1;
+}
+
+.botao:hover{
+    background-color: rgb(255, 251, 190);
+    cursor: pointer; 
+    color:rgb(255, 255, 255);
+}
+
+.quadrado2{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top:73%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    background-color: rgb(217, 255, 199);
+    border: 2px solid rgb(255, 66, 139);
+    border-radius: 50px;
+}
+
+.bola{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 72%;
+    left: 38%;
+    transform: translate(-0%, -40%);
+    background-color: rgb(255, 242, 251);
+    border-radius: 80%;
+    z-index: 0;
+}
+
+.bola2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 72%;
+    left: 56%;
+    transform: translate(-0%, -40%);
+    background-color: rgb(255, 242, 251);
+    border-radius: 80%;
+    z-index: 0;
+}

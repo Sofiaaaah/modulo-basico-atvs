@@ -1,0 +1,82 @@
+body {
+    background-color: pink;
+}
+
+@font-face {
+    font-family: "fonte";
+    src: url("fonts/Borel-Regular.ttf") format("truetype");
+}
+
+#teamo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fonte;
+}
+
+.amor {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 40px;
+    border: 8px solid #ff5ca8;
+}
+
+.pink1 {
+    position: absolute;
+    width: 100px;
+    top: 60%;
+    left: 25%;
+    transform: rotate(30deg);
+    z-index:0;
+}
+
+.pink2 {
+    position: absolute;
+    width: 400px;
+    transform: rotate(30deg);
+    left: 45%;
+    z-index: 0;
+}
+
+.mensagem1{
+    position: absolute;
+    width: 300px;
+    font-size: large;
+    top: 30%;
+    left: 7%;
+    font-family: fonte;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border: 4px solid #ff2f90;
+    padding: 10px;
+    
+}
+
+.mensagem2{
+    position: absolute;
+    width: 300px;
+    font-size: large;
+    top: 28%;
+    left: 72%;
+    font-family: fonte;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border: 4px solid #ff2f90;
+    padding: 10px;
+    z-index: 2;
+    
+}
+
+.botao{
+    position: absolute;
+    background-color: white;
+    left: 46%;
+    top:85%;
+}
+
+
+
